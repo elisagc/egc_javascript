@@ -1,4 +1,7 @@
 # JavaScript
 
-- DOM & LocalStorage    https://elisagc.github.io/JavaScript/DOM_&_LocalStorage/
+Learning with Rithm School course:
+
+- DOM & LocalStorage   
+- jQuery
 
