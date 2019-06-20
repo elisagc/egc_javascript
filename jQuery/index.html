@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+      <script src="script.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Faster+One|Fredoka+One|Nunito&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style/style.css">
+      
+  </head>
+
+  <body>
+    
+    <div class="box-one">
+      <h1>My Favorite Movies</h1>
+      <form class="form-inline">
+        <div class="form-group">
+          <label>Movie Title</label>
+          <input type="text" class="form-control" id="movie" placeholder="Movie Title">  
+        </div>
+        <div class="form-group">
+          <label>Rating</label>
+          <input type="number" class="form-control" id="rating" placeholder="Rate the movie" max="10">
+        </div>
+        <button type="submit" class="btn btn-primary" id="add">Add Movie</button>
+      </form>   
+    </div>
+
+    <div class="box-two">
+      <table class="table table-bordered">
+          <tr>
+            <th scope="col" class="tdSize">Movie<div class="box-arrow"><img src="img/up.png" id="upMovie"><img src="img/down.png" id="downMovie"></div></th>
+            <th scope="col" class="tdSize">Rating<div class="box-arrow"><img src="img/up.png" id="upRanking"><img src="img/down.png" id="downRanking"></div></th>
+            <th scope="col" class="tdSize">Delete</th>
+          </tr>
+          <tbody id="tbody">
+          </tbody>
+      </table>
+    </div>  
+     
+  </body>
+</html>
