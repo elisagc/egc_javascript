@@ -2,6 +2,6 @@
 
 Learning with Rithm School course:
 
-- DOM & LocalStorage   
-- jQuery
+- DOM & LocalStorage          https://elisagc.github.io/JavaScript/DOM_&_LocalStorage/
+- jQuery                      https://elisagc.github.io/JavaScript/jQuery/
 
