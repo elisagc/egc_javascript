@@ -5,6 +5,9 @@ h1{
 
 body{
     font-family: Nunito;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 label{
